@@ -1,6 +1,6 @@
-function maps(elementClassNum, lat, long){
+function maps(elementIdNum, lat, long){
     //let collapisble = document.getElementById(elementId);
-    alert(elementClassNum + ", " + lat + ", " + long);
+    alert(elementIdNum.toString() + ", " + lat + ", " + long);
 
     //let myLatlng = new google.maps.LatLng(lat, long);
 
@@ -9,7 +9,7 @@ function maps(elementClassNum, lat, long){
         center: { lat: lat, lng: long},
     }
 
-    let map = new google.maps.Map(document.getElementsByClassName('map-' + elementClassNum.toString()), mapOptions);
+    let map = new google.maps.Map(document.getElementById(`map-${elementIdNum.toString()}`), mapOptions);
 
     let marker = new google.maps.Marker({
         position: { lat: lat, lng: long},
@@ -24,3 +24,4 @@ function maps(elementClassNum, lat, long){
         infowindow.open(map, marker);
     });
 }
+

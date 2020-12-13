@@ -35,11 +35,16 @@ function processRequest(results) {
 
         let collapsible = document.getElementById(obj[i].id);
         
-        collapsible.innerHTML += `<p class="collapse-content">${obj[i].id}</p>
+        collapsible.innerHTML += `<p class="collapse-content">
+                                    \n
+                                    ${obj[i].name}\n
+                                    ${obj[i].rating}/5 stars\n
+                                    ${obj[i].categories.title} 
+                                  </p>
                                   <button class="navButton" onclick="maps(${i}, 
                                                                           ${obj[i].coordinates.latitude}, 
                                                                           ${obj[i].coordinates.longitude})">
                                                                           Get Location</button>
-                                  <div class="map-${i}" id="map"></div>`;
+                                  <div id="map-${i}" class="map"></div>`;
     }
 }
