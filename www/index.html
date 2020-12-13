@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title>Squeal</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/index.css">       
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="header-title">S q u e a l</h1>
+            <h2 id="header-subtitle">A synonym of Yelp</h2>
+        </div>
+
+        <div id="prompt" style="text-align: center;"></div>
+
+        <table id="page">
+            <tr>
+                <td id="tdcontent">
+                    <div id="content"></div>
+                </td>
+            </tr>
+            <tr>
+                <nav id="navbar" class="navbar fixed-bottom">
+                    <button id="search-tab" class="navButton">Search</button>
+                    <button id ="home-tab" class="navButton">Home</button>
+                    <button id="in-out-tab" class="navButton"></button>
+                </nav>
+            </tr>
+        </table>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+              apiKey: "AIzaSyCX-lfe24MwouPt8pTlNwNXOW3LJwFwkV8",
+              authDomain: "squeal-98e5e.firebaseapp.com",
+              projectId: "squeal-98e5e",
+              appId: "1:313720349972:web:9550854ffe962ebba4ce01",
+              measurementId: "G-L1GXR5F64M"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+
+            // Create auth and firestore references
+            const auth = firebase.auth();
+            const db = firebase.firestore();
+
+            // Update firestore settings
+            db.settings({ timestampsInSnapshots: true });
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGLGstVtU_DVottarS2uTuPRUjyP37b5c"></script>
+        <script src="js/home.js"></script>
+        <script src="js/userCreds.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/createAcc.js"></script>
+        <script src="js/auth.js"></script>
+        <script src="js/maps.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/search_currentLoc.js"></script>
+    </body>
+
+    <script>
+        function getCurrentLoc() {
+            alert("Getting current location");
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    alert("Latitude: " + position.coords.latitude + "\n" + "Longitude: " + position.coords.longitude);
+                    geoLat = position.coords.latitude;
+                    geoLong = position.coords.longitude;
+                    searchCurrentLoc(geoLat, geoLong);
+                },
+                function(error) {
+                    alert("Code: " + error.code + "\n" + "Message: " + error.message + "\n");
+                },
+                {maximumAge: 300000, timeout: 5000, enableHighAccuracy: true});
+
+            function searchCurrentLoc(lat, long) { 
+                let workspace = document.getElementById("content");
+
+                let test = document.createElement('p');
+                let testText = document.createTextNode("Latitude: " + lat + "\n" +
+                                                       "Longitude: " + long + "\n");
+                test.appendChild(testText);
+                workspace.append(test);
+                
+
+                //Function from search_currentLoc.js. Sends API GET request and retrieves JSON object.
+                currentLocRequest(lat, long);
+            }
+        }
+    </script>
+</HTML>
