@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Initial Commit.">
+    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Successful implemented Google Maps (JavaScript) API.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search_currentLoc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607785310179</updated>
     </task>
+    <task id="LOCAL-00001" summary="Successful implemented Google Maps (JavaScript) API.">
+      <created>1607894693735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607894693735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -47,17 +52,22 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+    <MESSAGE value="Successful implemented Google Maps (JavaScript) API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Successful implemented Google Maps (JavaScript) API." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="204" width="573" height="273" key="#Notifications" timestamp="1607894874146">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="526" y="204" width="573" height="273" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1607894874146" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1607790265950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1607790265950" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607832707138">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607894892148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607832707138" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607894892148" />
     <state x="518" y="239" key="Github.ShareDialog" timestamp="1607885715881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -70,5 +80,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607885671172" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607896434803">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607896434803" />
   </component>
 </project>
