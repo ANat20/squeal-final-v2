@@ -1,6 +1,4 @@
 function maps(elementIdNum, lat, long){
-    //let myLatlng = new google.maps.LatLng(lat, long);
-
     let mapOptions = {
         zoom: 15,
         center: { lat: lat, lng: long},
@@ -21,4 +19,3 @@ function maps(elementIdNum, lat, long){
         infowindow.open(map, marker);
     });
 }
-

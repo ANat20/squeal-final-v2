@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state]).">
+    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Not sure what these files are, but I felt the need to add them as they were generated because of my changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/createAcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/createAcc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/favs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/userCreds.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/userCreds.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,8 +88,33 @@
       <option name="project" value="LOCAL" />
       <updated>1607919759870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final final commit. Code optimization and cleanup. Minor CSS additions made with respect to button animations and spans.">
+      <created>1607964161073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607964161074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Not sure what these files are, but I felt the need to add them as they were generated because of my changes.">
+      <created>1607964212497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607964212497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -84,21 +124,27 @@
     <MESSAGE value="Successful implemented Google Maps (JavaScript) API." />
     <MESSAGE value="Full implementation of search by current location. Partial implementation of search by term and by different location (city[, state])." />
     <MESSAGE value="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state])." />
-    <option name="LAST_COMMIT_MESSAGE" value="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state])." />
+    <MESSAGE value="Final final commit. Code optimization and cleanup. Minor CSS additions made with respect to button animations and spans." />
+    <MESSAGE value="Not sure what these files are, but I felt the need to add them as they were generated because of my changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Not sure what these files are, but I felt the need to add them as they were generated because of my changes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" width="573" height="273" key="#Notifications" timestamp="1607894874146">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="526" y="204" width="573" height="273" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1607894874146" />
+    <state x="409" y="171" width="461" height="496" key="#com.intellij.tools.ToolEditorDialog" timestamp="1607965605698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="409" y="171" width="461" height="496" key="#com.intellij.tools.ToolEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1607965605698" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1607962199246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1607962199246" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607894892148">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607964037704">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607894892148" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607964037704" />
     <state x="518" y="239" key="Github.ShareDialog" timestamp="1607885715881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -107,14 +153,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1607885777089" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1607885671172">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1607965606562">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607885671172" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607919769773">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607965606562" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607964253243">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607919769773" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607964253243" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607896434803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

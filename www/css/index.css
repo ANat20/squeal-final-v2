@@ -236,8 +236,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
 }
 
 .home {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     width: 50%;
 }
 

@@ -6,5 +6,4 @@ document.addEventListener("DOMContentLoaded", function(){
     document.getElementById('search-tab').onclick = dosearch;
     
     dohome();
-    //dosearch();
 });
