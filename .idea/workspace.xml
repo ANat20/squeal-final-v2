@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Successful implemented Google Maps (JavaScript) API.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search_currentLoc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607894693735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Successful implemented Google Maps (JavaScript) API.">
+      <created>1607896467214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607896467214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -80,6 +91,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607885671172" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607897039237">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607897039237" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607896434803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

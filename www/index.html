@@ -75,38 +75,32 @@
         <script src="js/createAcc.js"></script>
         <script src="js/auth.js"></script>
         <script src="js/maps.js"></script>
-        <script src="js/search.js"></script>
         <script src="js/search_currentLoc.js"></script>
+        <script src="js/search.js"></script>
     </body>
 
     <script>
-        function getCurrentLoc() {
+        function getCurrentLoc(term) {
+            if (term == "search") {
+                alert("changing term");
+                term = document.getElementById('searchTerm').value;
+                alert("term is now: " + term);
+            }
+
             alert("Getting current location");
+
             navigator.geolocation.getCurrentPosition(
                 function(position) {
                     alert("Latitude: " + position.coords.latitude + "\n" + "Longitude: " + position.coords.longitude);
                     geoLat = position.coords.latitude;
                     geoLong = position.coords.longitude;
-                    searchCurrentLoc(geoLat, geoLong);
+
+                    currentLocRequest(term, geoLat, geoLong);
                 },
                 function(error) {
                     alert("Code: " + error.code + "\n" + "Message: " + error.message + "\n");
                 },
                 {maximumAge: 300000, timeout: 5000, enableHighAccuracy: true});
-
-            function searchCurrentLoc(lat, long) { 
-                let workspace = document.getElementById("content");
-
-                let test = document.createElement('p');
-                let testText = document.createTextNode("Latitude: " + lat + "\n" +
-                                                       "Longitude: " + long + "\n");
-                test.appendChild(testText);
-                workspace.append(test);
-                
-
-                //Function from search_currentLoc.js. Sends API GET request and retrieves JSON object.
-                currentLocRequest(lat, long);
-            }
         }
     </script>
 </HTML>

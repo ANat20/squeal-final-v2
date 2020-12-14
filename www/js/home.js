@@ -6,7 +6,7 @@ var dohome = function(){
     prompt.innerHTML = ""; 
 
     let span = document.createElement('span');
-    let text = document.createTextNode("This app was made by Gilbert Greene (Z23444843)");
+    let text = document.createTextNode("App created by Gilbert Greene (Z23444843)");
     span.appendChild(text);
     span.id = "tabPrompt";
     prompt.append(span);
