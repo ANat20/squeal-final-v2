@@ -145,6 +145,10 @@ body {
     cursor: pointer;
 }
 
+.btn:active {
+    transform: translateY(4px);
+}
+
 
 #navbar {
     background-color: #ECF0F1;
@@ -166,6 +170,10 @@ body {
 
 .navButton:disabled {
     background-color: grey;
+}
+
+.navButton:active {
+    transform: translateY(4px);
 }
 
 .card {
@@ -225,6 +233,12 @@ input[type=text], input[type=email], input[type=password] {
 
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
     background-color: #ECF0F1;
+}
+
+.home {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
 }
 
 /*End of developer-assigned styles.*/

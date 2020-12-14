@@ -1,16 +1,45 @@
 var accCreation = function() {
-    let workspace = document.getElementById("content");
     let prompt = document.getElementById("prompt");
+    let workspace = document.getElementById("content");
 
-    workspace.innerHTML = "";
     prompt.innerHTML = ""; 
+    workspace.innerHTML = "";
 
-    let span = document.createElement('span');
-    let text = document.createTextNode("Welcome to Account Creation!");
-    span.appendChild(text);
-    span.id = "tabPrompt";
-    prompt.append(span);
+    prompt.innerHTML += `<span class="tabPrompt">Welcome to Account Creation</span>`;
 
+    workspace.innerHTML += `<div class="container">
+                                <div class="login-form">
+                                    <form id="registration">
+                                        <div class="form-group">
+                                            <input type="email" id="createEmail" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" id="createPass" class="form-control" placeholder="Password" pattern=".{6,}" title="Six or more characters" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>`;
+
+    const regisFormEvent = document.querySelector('#registration'); 
+
+    regisFormEvent.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Get user registration info from form submission.
+        const userEmail = regisFormEvent['createEmail'].value;
+        const userPass = regisFormEvent['createPass'].value;
+
+        // Sign user up with Firebase. 
+        auth.createUserWithEmailAndPassword(userEmail, userPass).then(cred => {
+            alert("Firebase registration creds generated.");
+            userCreds();
+        });
+    });
+
+    /*
     let container = document.createElement('div');
     container.setAttribute('class', 'container');
     workspace.append(container);
@@ -23,8 +52,6 @@ var accCreation = function() {
     let form = document.createElement('form');
     form.setAttribute('id', 'registration');
     regisForm.append(form);
-
-    const regisFormEvent = document.querySelector('#registration'); 
 
     // Username
     let formGroup1 = document.createElement('div');
@@ -66,19 +93,5 @@ var accCreation = function() {
     submitText = document.createTextNode("Register");
     submit.appendChild(submitText);
     formGroup3.append(submit);
-
-    // Event Listener For Registration Form
-    regisFormEvent.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        // Get user registration info from form submission.
-        const userEmail = regisFormEvent['createEmail'].value;
-        const userPass = regisFormEvent['createPass'].value;
-
-        // Sign user up with Firebase. 
-        auth.createUserWithEmailAndPassword(userEmail, userPass).then(cred => {
-            alert("Firebase registration creds generated.");
-            userCreds();
-        });
-    });
+    */
 }

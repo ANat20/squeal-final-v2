@@ -6,11 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
         crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/index.css"> 
-        
-        <meta http-equiv="Content-Security-Policy" 
-        content="default-src *; script-src * 'unsafe-inline'; style-src * 'unsafe-inline'; media-src *; img-src * data:">
     </head>
     <body>
         <div id="header">
@@ -71,26 +67,21 @@
         <script src="js/createAcc.js"></script>
         <script src="js/auth.js"></script>
         <script src="js/maps.js"></script>
-        <script src="js/search_currentLoc.js"></script>
         <script src="js/search.js"></script>
+        <script src="js/searchResults.js"></script>
     </body>
 
     <script>
         function getCurrentLoc(term) {
             if (term == "search") {
-                alert("changing term");
                 term = document.getElementById('searchTerm').value;
             }
-
-            alert("Getting current location");
 
             navigator.geolocation.getCurrentPosition(
                 function(position) {
                     alert("Latitude: " + position.coords.latitude + "\n" + "Longitude: " + position.coords.longitude);
                     geoLat = position.coords.latitude;
                     geoLong = position.coords.longitude;
-
-                    alert("term is now: " + term);
 
                     currentLocRequest(term, geoLat, geoLong);
                 },

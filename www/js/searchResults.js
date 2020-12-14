@@ -21,8 +21,6 @@ function otherLocRequest() {
     const TOKEN = "CdWNqZ-ejJcWQNCu2QgPXFEEx8Mg0xA6CMVdzAh8HmStiAU2ujrjQ2VJlthXSh5tIzGbGCnMSaXLkh_fytNs6mCtTkHzkt0HNaJjOx1tpn_oPdpQWv713RAxcmzKX3Yx"
     searchTerm = document.getElementById('searchLoc').value;
 
-    alert("ugh")
-
     $.ajax({
         url: `https://api.yelp.com/v3/businesses/search?&location=${searchTerm}`,
         type: 'GET',
@@ -44,7 +42,7 @@ function processRequest(results) {
 
     let workspace = document.getElementById("content");
     workspace.innerHTML = ""; 
-    workspace.innerHTML = `<h3>Fetching results near ZIP ${obj[0].location.zip_code}!</h3>`;
+    workspace.innerHTML = `<span class="tabPrompt">Fetching results near ZIP ${obj[0].location.zip_code}!</span>`;
 
     alert(`ID: ${obj[2].id}\nLat: ${obj[2].coordinates.latitude}\nLong: ${obj[2].coordinates.longitude}`);
 
@@ -63,10 +61,10 @@ function processRequest(results) {
                                     ${obj[i].rating}/5 stars <br>
                                     ${obj[i].categories[0].title} 
                                   </span></p>
-                                  <button class="navButton" onclick="maps(${i}, 
-                                                                          ${obj[i].coordinates.latitude}, 
-                                                                          ${obj[i].coordinates.longitude})">
-                                                                          Get Location</button>
+                                  <button class="btn" onclick="maps(${i},
+                                                                    ${obj[i].coordinates.latitude},
+                                                                    ${obj[i].coordinates.longitude})">
+                                                                    Get Location</button>
                                   <div id="map-${i}" class="map"></div>`;
     }
 }

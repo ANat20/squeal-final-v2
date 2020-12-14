@@ -1,7 +1,4 @@
 function maps(elementIdNum, lat, long){
-    //let collapisble = document.getElementById(elementId);
-    alert(elementIdNum.toString() + ", " + lat + ", " + long);
-
     //let myLatlng = new google.maps.LatLng(lat, long);
 
     let mapOptions = {
@@ -17,7 +14,7 @@ function maps(elementIdNum, lat, long){
     });
 
     const infowindow = new google.maps.InfoWindow({
-        content: "<p>Marker Location:" + marker.getPosition() + "</p>",
+        content: "<p> Location:" + marker.getPosition() + "</p>",
     });
     
     google.maps.event.addListener(marker, "click", () => {

@@ -5,9 +5,8 @@ var dohome = function(){
     workspace.innerHTML = "";
     prompt.innerHTML = ""; 
 
-    let span = document.createElement('span');
-    let text = document.createTextNode("App created by Gilbert Greene (Z23444843)");
-    span.appendChild(text);
-    span.classList.add("tabPrompt");
-    prompt.append(span);
+    prompt.innerHTML += `<div class="home">
+                            <span class="tabPrompt">Created by Gilbert Greene</span> <br>
+                            <span class="tabPrompt">(Z23444843)</span>
+                         </div>`;
 }

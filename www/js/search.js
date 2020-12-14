@@ -2,8 +2,8 @@ var dosearch = function(){
     let workspace = document.getElementById("content");
     let prompt = document.getElementById("prompt");
 
-    workspace.innerHTML = "";
     prompt.innerHTML = "";
+    workspace.innerHTML = "";
 
     prompt.innerHTML += `<span class="poweredBy">Powered by Yelp Fusion</span>`;
     workspace.innerHTML += `<div class="container">

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state]).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/createAcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/createAcc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/userCreds.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/userCreds.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +91,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="526" y="204" width="573" height="273" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1607894874146" />
-    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1607790265950">
+    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1607962199246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1607790265950" />
+    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1607962199246" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607894892148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
