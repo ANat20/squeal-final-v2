@@ -18,7 +18,10 @@ function currentLocRequest(searchTerm, geoLat, geoLong) {
 }
 
 function otherLocRequest() {
+    const TOKEN = "CdWNqZ-ejJcWQNCu2QgPXFEEx8Mg0xA6CMVdzAh8HmStiAU2ujrjQ2VJlthXSh5tIzGbGCnMSaXLkh_fytNs6mCtTkHzkt0HNaJjOx1tpn_oPdpQWv713RAxcmzKX3Yx"
     searchTerm = document.getElementById('searchLoc').value;
+
+    alert("ugh")
 
     $.ajax({
         url: `https://api.yelp.com/v3/businesses/search?&location=${searchTerm}`,

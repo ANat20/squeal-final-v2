@@ -8,6 +8,6 @@ var dohome = function(){
     let span = document.createElement('span');
     let text = document.createTextNode("App created by Gilbert Greene (Z23444843)");
     span.appendChild(text);
-    span.id = "tabPrompt";
+    span.classList.add("tabPrompt");
     prompt.append(span);
 }

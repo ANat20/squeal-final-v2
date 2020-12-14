@@ -8,7 +8,7 @@ var userCreds = function(){
     let span = document.createElement('span');
     let text = document.createTextNode("Welcome to Squeal!");
     span.appendChild(text);
-    span.id = "tabPrompt";
+    span.classList.add("tabPrompt");
     prompt.append(span);
 
     // Divs    
@@ -104,22 +104,3 @@ var userCreds = function(){
 
     document.getElementById('create').addEventListener("click", accCreation);
 }
-
-/*
-<div class="container">
-            <div class="login-form">
-                <form onsubmit="userLogin()">
-                    <h2 class="text-center">Log in</h2>       
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Username" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Password" required="required">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Log in</button>
-                    </div>
-                </form>
-                <p class="text-center"><a href="#">Create an Account</a></p> 
-        </div> 
-*/

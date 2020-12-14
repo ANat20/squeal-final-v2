@@ -107,7 +107,7 @@ body {
     overflow: auto;
 }
 
-#tabPrompt {
+.tabPrompt {
     color: black;
     background-color: #ECF0F1;
     -webkit-text-stroke-width: 1px;
@@ -120,7 +120,7 @@ body {
     margin-bottom: 5px;
 }
 
-#poweredBy {
+.poweredBy {
     color: #FFC300;
     background-color: black;
     -webkit-text-stroke-width: 1px;

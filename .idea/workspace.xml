@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Full implementation of search by current location. Partial implementation of search by term and by different location (city[, state]).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
+    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state]).">
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search_currentLoc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607916455921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state]).">
+      <created>1607919759870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607919759870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -71,7 +74,8 @@
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="Successful implemented Google Maps (JavaScript) API." />
     <MESSAGE value="Full implementation of search by current location. Partial implementation of search by term and by different location (city[, state])." />
-    <option name="LAST_COMMIT_MESSAGE" value="Full implementation of search by current location. Partial implementation of search by term and by different location (city[, state])." />
+    <MESSAGE value="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state])." />
+    <option name="LAST_COMMIT_MESSAGE" value="Full implementation of search by current location and by term. Partial implementation of search by different location (city[, state])." />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" width="573" height="273" key="#Notifications" timestamp="1607894874146">
@@ -98,10 +102,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607885671172" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607916475213">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607919769773">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607916475213" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607919769773" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607896434803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
