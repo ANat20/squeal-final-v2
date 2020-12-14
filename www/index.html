@@ -54,10 +54,6 @@
 
             // Create auth and firestore references
             const auth = firebase.auth();
-            const db = firebase.firestore();
-
-            // Update firestore settings
-            db.settings({ timestampsInSnapshots: true });
         </script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
@@ -75,8 +71,8 @@
         <script src="js/createAcc.js"></script>
         <script src="js/auth.js"></script>
         <script src="js/maps.js"></script>
-        <script src="js/search_currentLoc.js"></script>
         <script src="js/search.js"></script>
+        <script src="js/search_currentLoc.js"></script>
     </body>
 
     <script>
@@ -84,7 +80,6 @@
             if (term == "search") {
                 alert("changing term");
                 term = document.getElementById('searchTerm').value;
-                alert("term is now: " + term);
             }
 
             alert("Getting current location");
@@ -94,6 +89,8 @@
                     alert("Latitude: " + position.coords.latitude + "\n" + "Longitude: " + position.coords.longitude);
                     geoLat = position.coords.latitude;
                     geoLong = position.coords.longitude;
+
+                    alert("term is now: " + term);
 
                     currentLocRequest(term, geoLat, geoLong);
                 },

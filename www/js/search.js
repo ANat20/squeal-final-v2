@@ -7,19 +7,17 @@ var dosearch = function(){
 
     prompt.innerHTML += `<span id="poweredBy">Powered by Yelp Fusion</span>`;
     workspace.innerHTML += `<div class="container">
-                                <span id="tabPrompt">Search by Current Location</span> <br>
-                                <button id="btn" onclick="getCurrentLoc('delish')">Current Location</button><br><br>
+                                <span class="tabPrompt">Search by Current Location</span> <br>
+                                <button class="btn" onclick="getCurrentLoc('delish')">Current Location</button><br><br>
 
-                                <form onsubmit="getCurrentLoc('search')">
-                                    <label for="searchTerm" id="tabPrompt">Search by Term</label><br>
-                                    <input type="text" id="searchTerm" placeholder="Search by Term" required><br>
-                                    <input id="btn" type="submit" value="Submit">
-                                </form> <br>
+                                <<span class="tabPrompt">Search by Term</span> <br>
+                                <input type="text" id="searchTerm" placeholder="Search by Term" required><br>
+                                <button class="btn" onclick="getCurrentLoc('search')">Submit</button><br>
 
-                                <form onsubmit="otherLocRequest()">
+                                <form onclick="otherLocRequest()">
                                     <label for="searchLoc" id="tabPrompt">Search by Other Location</label><br>
-                                    <input type="text" id="searchLoc" placeholder="Search by Term" required><br>
-                                    <input id="btn" type="submit" value="Submit">
+                                    <input type="text" id="searchLoc" placeholder="Search by Location" required><br>
+                                    <button class="btn" type="submit" value="Submit">
                                 </form>
                             </div>`;
     /*

@@ -1,6 +1,6 @@
 function currentLocRequest(searchTerm, geoLat, geoLong) {    
     const TOKEN = "CdWNqZ-ejJcWQNCu2QgPXFEEx8Mg0xA6CMVdzAh8HmStiAU2ujrjQ2VJlthXSh5tIzGbGCnMSaXLkh_fytNs6mCtTkHzkt0HNaJjOx1tpn_oPdpQWv713RAxcmzKX3Yx"
-
+    alert("current location request");
     $.ajax({
         url: `https://api.yelp.com/v3/businesses/search?term=${searchTerm}&latitude=${geoLat}&longitude=${geoLong}`,
         type: 'GET',

@@ -117,6 +117,7 @@ body {
     padding: 5px;
     text-align: center;
     border-style: inset;
+    margin-bottom: 5px;
 }
 
 #poweredBy {
@@ -131,7 +132,7 @@ body {
     border-style: inset;
 }
 
-#btn {
+.btn {
     background-color: black;
     border: none;
     padding: 15px 32px;
