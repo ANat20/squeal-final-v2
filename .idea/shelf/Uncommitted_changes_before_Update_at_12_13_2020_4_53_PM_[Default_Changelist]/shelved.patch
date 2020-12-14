@@ -1,0 +1,91 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c4dcd26a-ba63-4f9b-a088-b3cd10561379\" name=\"Default Changelist\" comment=\"Initial Commit.\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/www/css/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/www/css/index.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/www/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/www/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/www/js/maps.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/www/js/maps.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/www/js/search_currentLoc.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/www/js/search_currentLoc.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lYsMOYu6rcFQrEHbfWceIl7Mi3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"android.sdk.path\" value=\"$USER_HOME$/AppData/Local/Android/Sdk\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c4dcd26a-ba63-4f9b-a088-b3cd10561379\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1607785310179</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1607785310179</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"Initial Commit.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial Commit.\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"93\" y=\"93\" width=\"1095\" height=\"495\" key=\"AVDManager\" timestamp=\"1607790265950\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"93\" y=\"93\" width=\"1095\" height=\"495\" key=\"AVDManager/0.0.1280.680@0.0.1280.680\" timestamp=\"1607790265950\" />\r\n    <state x=\"421\" y=\"96\" key=\"FileChooserDialogImpl\" timestamp=\"1607832707138\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"421\" y=\"96\" key=\"FileChooserDialogImpl/0.0.1280.680@0.0.1280.680\" timestamp=\"1607832707138\" />\r\n    <state x=\"518\" y=\"239\" key=\"Github.ShareDialog\" timestamp=\"1607885715881\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"518\" y=\"239\" key=\"Github.ShareDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1607885715881\" />\r\n    <state x=\"343\" y=\"46\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1607885777089\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"343\" y=\"46\" key=\"Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1607885777089\" />\r\n    <state x=\"142\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1607885671172\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"142\" y=\"0\" key=\"SettingsEditor/0.0.1280.680@0.0.1280.680\" timestamp=\"1607885671172\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 75d38b93b7295e320bdfc101a3621eccc41b51d2)
++++ .idea/workspace.xml	(date 1607896434973)
+@@ -1,12 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Initial Commit.">
++    <list default="true" id="c4dcd26a-ba63-4f9b-a088-b3cd10561379" name="Default Changelist" comment="Successful implemented Google Maps (JavaScript) API.">
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/www/js/maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/maps.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/www/js/search_currentLoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/search_currentLoc.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -40,6 +37,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1607785310179</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Successful implemented Google Maps (JavaScript) API.">
++      <created>1607894693735</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1607894693735</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -47,17 +52,22 @@
+       <path value="$PROJECT_DIR$" />
+     </ignored-roots>
+     <MESSAGE value="Initial Commit." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
++    <MESSAGE value="Successful implemented Google Maps (JavaScript) API." />
++    <option name="LAST_COMMIT_MESSAGE" value="Successful implemented Google Maps (JavaScript) API." />
+   </component>
+   <component name="WindowStateProjectService">
++    <state x="526" y="204" width="573" height="273" key="#Notifications" timestamp="1607894874146">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="526" y="204" width="573" height="273" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1607894874146" />
+     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1607790265950">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1607790265950" />
+-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607832707138">
++    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1607894892148">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607832707138" />
++    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607894892148" />
+     <state x="518" y="239" key="Github.ShareDialog" timestamp="1607885715881">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+@@ -70,5 +80,9 @@
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607885671172" />
++    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607896434803">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607896434803" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1607885781636)
++++ .idea/vcs.xml	(date 1607885781636)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
